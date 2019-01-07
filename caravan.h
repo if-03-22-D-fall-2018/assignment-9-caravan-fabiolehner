@@ -14,6 +14,8 @@
 #define CARAVAN_H
 
 #include "pack_animal.h"
+typedef struct CaravanImplementation* Caravan;
+typedef struct NodeImplementation* Node;
 
 /**
 * Initialisiert eine Karawane. D. h., dass es alle in der Karawane befindlichen Tiere aus der
